@@ -5,9 +5,12 @@ This is a simple Java application that calculates the chance of getting above a 
 
 Welcome to the Genshin Impact Artifact Crit Calculator! This calculator is designed to help you estimate the chance of obtaining a desired crit value on a 5-star artifact in Genshin Impact.
 
+
 Version: Java 11
 
+
 Testing Framework: JUnit
+
 
 
 Follow the prompts to enter the required information:
