@@ -3,6 +3,7 @@ import static java.lang.Math.ceil;
 public class ArtifactController {
     private ArtifactModel model;
     private ArtifactView view;
+    private CalculationStrategy calculationStrategy;
 
     private static final int MAX_ARTIFACT_LEVEL = 20;
     private static final int ARTIFACT_LEVEL_INCREMENT = 4;
@@ -25,7 +26,9 @@ public class ArtifactController {
         return ((desiredCritValue - startingCritValue) / MAX_CRIT_VALUE);
     }
 
-
+    public void setCalculationStrategy(CalculationStrategy strategy) {
+        this.calculationStrategy = strategy;
+    }
 
     // Calculate and display the chance of getting above the desired crit value
     public void calculateAndDisplayChance() {

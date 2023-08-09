@@ -8,6 +8,21 @@ public class ArtifactModel {
     private int upgradeCount;
     private double requiredCoefficient;
     private static final double MAX_CRIT_VALUE = 7.77;
+    private double startingCritRate;
+    private double startingCritDamage;
+
+
+    public double getStartingCritRate() {
+        return startingCritRate;
+    }
+
+    public double getStartingCritDamage() {
+        return startingCritDamage;
+    }
+
+    public double getStartingCritValue(){
+        return startingCritValue;
+    }
     public void setStartingCritValue(double startingCritValue) {
         this.startingCritValue = startingCritValue;
     }
