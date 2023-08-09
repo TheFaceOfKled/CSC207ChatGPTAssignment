@@ -15,11 +15,22 @@ Testing Framework: JUnit
 
 Follow the prompts to enter the required information:
 
+
 Starting crit rate
+
+
 Starting crit damage
+
+
 Artifact level
+
+
 Desired crit value
+
+
 The application will calculate and display the chance of getting above the desired crit value based on the provided information.
+
+
 
 Components
 ArtifactModel.java
